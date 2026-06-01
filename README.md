@@ -282,41 +282,43 @@ Generated outputs and metadata are stored and linked to the associated task in *
 ## Authentication
 
 ```http
+POST /api/auth/signup
+POST /api/auth/login
+POST /api/auth/forgot-password
 POST /api/auth/oauth/callback
 GET  /api/auth/me
+GET /api/auth/users
 POST /api/auth/logout
 ```
 
-## Admin
+## Task
 
 ```http
-POST   /api/tasks
-GET    /api/tasks
+POST    /api/tasks
+GET     /api/tasks
+PATCH   /api/tasks/:task_id/status
+GET     /api/tasks/dashboard-stats
+GET     /api/tasks/my-tasks
+GET     /api/tasks/:task_id
 POST   /api/tasks/:id/assign
 PUT    /api/tasks/:id/accept
 PUT    /api/tasks/:id/request-revision
+PUT    /api/tasks/:id/start
 DELETE /api/tasks/:id
+POST   /api/tasks/:id/submit
 ```
 
-## User
+## AI Generations
 
 ```http
-GET  /api/my-tasks
-GET  /api/tasks/:id
-PUT  /api/tasks/:id/start
-POST /api/tasks/:id/submit
-```
-
-## AI Generation
-
-```http
-POST   /api/tasks/:id/generate
-GET    /api/jobs/:job_id/status
-GET    /api/tasks/:id/generations
-DELETE /api/generations/:id
-```
-
+GET     /api/ai/tasks/:task_id/generations
+GET     /api/ai/jobs/:id/status
+DELETE  /api/ai/generations/:gen_id
+POST    /api/ai/tasks/:task_id/generate
+POST    /api/ai/generate
 ---
+
+```
 
 # ⚙️ Local Setup
 
