@@ -464,7 +464,7 @@ taskhub/
 ```
 ---
 # Output Images
-<img width="600" height="369" alt="Image" src="https://github.com/user-attachments/assets/f12bb38a-7ce9-4251-a51f-4a2462c15699" />
+<img width="275" height="300" alt="Image" src="https://github.com/user-attachments/assets/f12bb38a-7ce9-4251-a51f-4a2462c15699" />
 <img width="255" height="300" alt="Image" src="https://github.com/user-attachments/assets/941b087a-6fe4-4dcf-8816-ebb29b3c027f" />
 <img width="257" height="300" alt="Image" src="https://github.com/user-attachments/assets/d42b717f-aea4-45ec-bbf0-d78c4fdee5ac" />
 <img width="236" height="300" alt="Image" src="https://github.com/user-attachments/assets/4ee9bdff-1467-4bf7-8e14-ba7700559ccc" />
