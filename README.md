@@ -379,20 +379,44 @@ gunicorn "app:create_app()"
 Create a `.env` file using `.env.example`.
 
 ```env
+# /taskhub/backend
+
+# Flask
+FLASK_ENV=
+
+# Redis (Celery)
+REDIS_URL=
+
+SECRET_KEY=
+
+# Supabase
 SUPABASE_URL=
 SUPABASE_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
 
-REDIS_URL=
+SUPABASE_JWT_SECRET=
 
 RESEND_API_KEY=
 
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
 
-GITHUB_CLIENT_ID=
-GITHUB_CLIENT_SECRET=
+# Replicate (SDXL / FLUX)
+REPLICATE_API_TOKEN=
 
-JWT_SECRET=
+CLOUDFLARE_API_KEY=
+CLOUDFLARE_ACCOUNT_ID=
+
+STABILITY_API_KEY=
+
+FRONTEND_URL=
+
+# taskhub/frontend
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+NEXT_PUBLIC_SUPABASE_URL=
+
+NEXT_PUBLIC_API_URL=
 ```
 
 ---
@@ -413,14 +437,38 @@ Run the schema file against PostgreSQL or Supabase before starting the applicati
 # 📂 Project Structure
 
 ```text
-taskhub/
 
+taskhub/
 ├── taskhub-frontend/
+│   ├── app/
+│   ├── components/
+│   ├── lib/
+│   ├── providers/
+│   ├── public/
 ├── backend/
+│   ├── routes/
+│   ├── utils/
+│   ├── tasks/
+│   ├── workers/
+│   ├── ml/
+│   ├── app.py
+│   ├── config.py
+│   ├── decorators.py
+│   ├── database.py
+│   └── Dockerfile
+├── .env.example
 ├── README.md
+
 ```
 ---
+# Output Images
+<img width="600" height="369" alt="Image" src="https://github.com/user-attachments/assets/f12bb38a-7ce9-4251-a51f-4a2462c15699" />
+<img width="255" height="300" alt="Image" src="https://github.com/user-attachments/assets/941b087a-6fe4-4dcf-8816-ebb29b3c027f" />
+<img width="257" height="300" alt="Image" src="https://github.com/user-attachments/assets/d42b717f-aea4-45ec-bbf0-d78c4fdee5ac" />
+<img width="236" height="300" alt="Image" src="https://github.com/user-attachments/assets/4ee9bdff-1467-4bf7-8e14-ba7700559ccc" />
+<img width="225" height="300" alt="Image" src="https://github.com/user-attachments/assets/f5d50df7-1885-4f0f-a047-21dab7f89996" />
 
+---
 # ⚠ Known Limitations
 
 * AI-generated outputs may vary depending on image quality.
@@ -441,7 +489,12 @@ taskhub/
 * Advanced analytics
 
 ---
+<div align="center">
 
-# License
+  ## 👩‍💻 Built By
+— <b>Khushi Goyal</b> ✨
 
-MIT License
+AI-ML Developer | MERN | Full-Stack Developer
+<br/>
+( Sky is not the limit, Limit is in our vision. )
+</div>
