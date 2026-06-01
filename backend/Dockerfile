@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["gunicorn", "app:create_app()", "--bind", "0.0.0.0:$PORT"]
+CMD ["sh", "-c", "redis-server --daemonize yes && celery -A workers.celery_app worker --loglevel=info & exec gunicorn 'app:create_app()' --bind 0.0.0.0:$PORT"]
