@@ -13,3 +13,4 @@ class Config:
     CLOUDINARY_API_KEY = os.getenv("CLOUDINARY_API_KEY")
     CLOUDINARY_API_SECRET = os.getenv("CLOUDINARY_API_SECRET")
     REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0") # Added for Celery
+    EMAIL_SENDER = "TaskHub <onboarding@resend.dev>"

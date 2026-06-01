@@ -7,7 +7,7 @@ from config import Config
 
 def create_app():
     app = Flask(__name__)
-    CORS(app) # Enable CORS for all routes
+    CORS(app, origins=["https://taskhub-ai-visual.vercel.app/"]) # Enable CORS for all routes
     app.config.from_object(Config)
     
     # Register API blueprints

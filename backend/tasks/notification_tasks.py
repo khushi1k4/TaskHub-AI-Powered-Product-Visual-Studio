@@ -19,7 +19,7 @@ resend.api_key = Config.RESEND_API_KEY
 def send_email_async(subject, recipient, body, html_body=None):
     try:
         resend.Emails.send({
-            "from": "TaskHub <onboarding@resend.dev>",
+            "from": Config.EMAIL_SENDER,
             "to": recipient,
             "subject": subject,
             "html": html_body or body
