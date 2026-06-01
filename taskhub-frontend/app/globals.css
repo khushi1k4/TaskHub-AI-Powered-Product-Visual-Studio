@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-background-light: #ffffff;
+  --color-background-dark: #1f1d1c;
+  --color-primary-pink: #f4a261;
+  --color-primary-brown: #8b5e3c;
+  --color-text-light: #121212;
+  --color-text-dark: #ffffff;
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #121212;
+  }
+
+  .dark {
+    --background: #09090b;
+    --foreground: #ffffff;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--background);
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 30s linear infinite;
+}
+
+.animate-scroll-left {
+  will-change: transform;
+}

@@ -1,0 +1,14 @@
+.env
+
+__pycache__
+
+venv
+
+test_trigger.py
+test_signup.py
+test_users.py
+
+test_*.py
+test_pipeline.py
+
+test_images

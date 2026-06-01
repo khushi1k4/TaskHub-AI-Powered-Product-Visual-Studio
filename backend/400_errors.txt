@@ -1,0 +1,148 @@
+400 on GET /api/ai/tasks/30e7571b-6fa2-4bb3-ae82-60acdd345134/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/30e7571b-6fa2-4bb3-ae82-60acdd345134/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/tasks/my-tasks: {
+  "error": "Server disconnected"
+}
+
+400 on GET /api/tasks/my-tasks: {
+  "error": "Server disconnected"
+}
+
+400 on GET /api/tasks/my-tasks: {
+  "error": "Server disconnected"
+}
+
+400 on GET /api/tasks/my-tasks: {
+  "error": "Server disconnected"
+}
+
+400 on GET /api/ai/tasks/30e7571b-6fa2-4bb3-ae82-60acdd345134/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/auth/users: {
+  "error": "Server disconnected"
+}
+
+400 on GET /api/tasks/my-tasks: {
+  "error": "Server disconnected"
+}
+
+400 on GET /api/ai/tasks/30e7571b-6fa2-4bb3-ae82-60acdd345134/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/30e7571b-6fa2-4bb3-ae82-60acdd345134/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on POST /api/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/submit: {
+  "error": "'admin_id'"
+}
+
+400 on POST /api/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/submit: {
+  "error": "'admin_id'"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/30e7571b-6fa2-4bb3-ae82-60acdd345134/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/30e7571b-6fa2-4bb3-ae82-60acdd345134/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/22656ba6-cffa-4a72-9dfb-0bc003c69d05/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/22656ba6-cffa-4a72-9dfb-0bc003c69d05/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/3a0666ce-e8c0-428f-ac63-810e32f3d576/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/22656ba6-cffa-4a72-9dfb-0bc003c69d05/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/22656ba6-cffa-4a72-9dfb-0bc003c69d05/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/4028fe5f-610b-4528-91e1-74e224f3ccf7/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/4028fe5f-610b-4528-91e1-74e224f3ccf7/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/4028fe5f-610b-4528-91e1-74e224f3ccf7/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/4028fe5f-610b-4528-91e1-74e224f3ccf7/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/4028fe5f-610b-4528-91e1-74e224f3ccf7/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
+400 on GET /api/ai/tasks/4028fe5f-610b-4528-91e1-74e224f3ccf7/generations: {
+  "error": "{'message': \"Could not find the table 'public.generated_images' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}"
+}
+
