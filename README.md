@@ -316,9 +316,9 @@ GET     /api/ai/jobs/:id/status
 DELETE  /api/ai/generations/:gen_id
 POST    /api/ai/tasks/:task_id/generate
 POST    /api/ai/generate
----
-
 ```
+
+---
 
 # ⚙️ Local Setup
 
