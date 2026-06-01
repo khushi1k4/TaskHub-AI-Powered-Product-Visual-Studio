@@ -1,5 +1,9 @@
 # TaskHub – AI-Powered Product Photography Platform
 
+**Deployed Link:** [https://taskhub-ai-visual.vercel.app/](https://taskhub-ai-visual.vercel.app/)
+
+**Video:** [Demostration video](https://drive.google.com/file/d/1OW6r2_W6bwqUK6S6X70Az-xVWuuIebFK/view?usp=sharing)
+
 TaskHub is a full-stack task management platform that combines workflow management with an AI-powered Product Photography Studio.
 
 Admins can assign product photography tasks to users, while users generate professional AI-enhanced product images and submit them for review. The platform supports role-based access control, email notifications, asynchronous image generation, task review workflows, and analytics.
@@ -464,9 +468,8 @@ taskhub/
 ```
 ---
 # Output Images
-<img width="275" height="300" alt="Image" src="https://github.com/user-attachments/assets/f12bb38a-7ce9-4251-a51f-4a2462c15699" />
-<img width="255" height="300" alt="Image" src="https://github.com/user-attachments/assets/941b087a-6fe4-4dcf-8816-ebb29b3c027f" />
-<img width="257" height="300" alt="Image" src="https://github.com/user-attachments/assets/d42b717f-aea4-45ec-bbf0-d78c4fdee5ac" />
+<img width="400" height="300" alt="Image" src="https://github.com/user-attachments/assets/f12bb38a-7ce9-4251-a51f-4a2462c15699" />
+<img width="200" height="300" alt="Image" src="https://github.com/user-attachments/assets/941b087a-6fe4-4dcf-8816-ebb29b3c027f" />
 <img width="236" height="300" alt="Image" src="https://github.com/user-attachments/assets/4ee9bdff-1467-4bf7-8e14-ba7700559ccc" />
 <img width="225" height="300" alt="Image" src="https://github.com/user-attachments/assets/f5d50df7-1885-4f0f-a047-21dab7f89996" />
 
