@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import toast from "react-hot-toast";
 import { ArrowLeft, Mail } from "lucide-react";
+import { api } from "@/lib/api";
 
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState("");
@@ -32,11 +33,7 @@ export default function ForgotPasswordPage() {
     try {
       setLoading(true);
 
-      // BACKEND API LATER
-
-      await new Promise((resolve) =>
-        setTimeout(resolve, 1500)
-      );
+      await api.post("/auth/forgot-password", { email });
 
       toast.success(
         "Password reset link sent to your email"

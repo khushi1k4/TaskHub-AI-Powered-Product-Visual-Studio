@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 
 import toast from "react-hot-toast";
+import { api } from "@/lib/api";
 
 export default function ResetPasswordPage() {
   const router = useRouter();
@@ -177,29 +178,10 @@ export default function ResetPasswordPage() {
     try {
       setLoading(true);
 
-      // FLASK API LATER
-
-      /*
-      await fetch(
-        "http://127.0.0.1:5000/api/auth/reset-password",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            token,
-            password: formData.password,
-          }),
-        }
-      );
-      */
-
-      // TEMP FRONTEND DEMO
-
-      await new Promise((resolve) =>
-        setTimeout(resolve, 1800)
-      );
+      await api.post("/auth/reset-password", {
+        token,
+        password: formData.password,
+      });
 
       toast.success(
         "Password reset successfully"
