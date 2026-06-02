@@ -14,9 +14,9 @@ def create_app():
     app.register_blueprint(task_bp, url_prefix='/api/tasks')
     app.register_blueprint(ai_bp, url_prefix='/api/ai')
 
-    @app.route('/health', methods=['GET'])
-    def health_check():
-        return {"status": "healthy"}, 200
+    @app.route("/health")
+    def health():
+        return "OK"
 
     @app.after_request
     def log_400(response):
