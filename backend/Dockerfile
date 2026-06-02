@@ -25,4 +25,5 @@ COPY . .
 
 EXPOSE 10000
 
-CMD ["sh", "-c", "celery -A workers.celery_app worker --loglevel=info & exec gunicorn app:app --bind 0.0.0.0:$PORT"]
+# CMD ["sh", "-c", "celery -A workers.celery_app worker --loglevel=info & exec gunicorn app:app --bind 0.0.0.0:$PORT"]
+CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:10000"]
