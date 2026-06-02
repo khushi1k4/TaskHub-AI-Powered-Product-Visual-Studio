@@ -2,7 +2,7 @@
 
 **Deployed Link:** [https://taskhub-ai-visual.vercel.app/](https://taskhub-ai-visual.vercel.app/)
 
-**Video:** [Demostration video](https://drive.google.com/file/d/1OW6r2_W6bwqUK6S6X70Az-xVWuuIebFK/view?usp=sharing)
+**Video:** [Demostration video](https://drive.google.com/file/d/19-hrZH5Zgv5aVLeFbHobw4AAdLl0LwMp/view?usp=sharing)
 
 TaskHub is a full-stack task management platform that combines workflow management with an AI-powered Product Photography Studio.
 
