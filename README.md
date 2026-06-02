@@ -2,6 +2,8 @@
 
 **Deployed Link:** [https://taskhub-ai-visual.vercel.app/](https://taskhub-ai-visual.vercel.app/)
 
+(NOTE: Deployed on Vercel+Docker+Render but Render sleeps backend frequently, especially ML due to heavy loading which might cause issues and Railway is paid for deployment.)
+
 **Video:** [Demostration video](https://drive.google.com/file/d/19-hrZH5Zgv5aVLeFbHobw4AAdLl0LwMp/view?usp=sharing)
 
 TaskHub is a full-stack task management platform that combines workflow management with an AI-powered Product Photography Studio.
