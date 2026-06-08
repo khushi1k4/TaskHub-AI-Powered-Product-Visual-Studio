@@ -74,8 +74,10 @@ def forgot_password():
 @auth_bp.route('/me', methods=['GET'])
 @require_auth(allowed_roles=['admin', 'user'])
 def get_me():
-    # request.user is injected by your @require_auth decorator
-    return jsonify({"user": request.user}), 200
+    print("INSIDE /ME ROUTE")
+    return jsonify({
+        "user": request.user
+    }), 200
 
 @auth_bp.route('/users', methods=['GET'])
 @require_auth(allowed_roles=['admin'])
